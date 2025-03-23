@@ -21,14 +21,12 @@ This repository contains the Object-Oriented Analysis and Design (OOAD) document
 
 ## Introduction
 
-The aim of this project is to [briefly describe the purpose and objective of the project]. It follows an object-oriented approach using UML diagrams and design principles.
+This project aims to [briefly describe the purpose and objective of the project]. It follows an object-oriented approach using UML diagrams and design principles.
 
 ## System Requirements
 
 - Programming Language: [Java/Python/C++]
-- Framework: [Spring Boot, Django, etc.]
-- Database: [MySQL/PostgreSQL/MongoDB]
-- Other dependencies: [List relevant libraries]
+- Database: [MySQL]
 
 ## Use Case Diagram
 
