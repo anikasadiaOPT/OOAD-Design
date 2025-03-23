@@ -21,7 +21,7 @@ This repository contains the Object-Oriented Analysis and Design (OOAD) document
 
 ## Introduction
 
-This project aims to [briefly describe the purpose and objective of the project]. It follows an object-oriented approach using UML diagrams and design principles.
+This project aims to cover the full syllabus of Object Oriented Analysis and Design. It follows an object-oriented approach using UML diagrams and design principles.
 
 ## System Requirements
 
@@ -64,6 +64,8 @@ The activity diagram describes the system's workflow.
 - Factory Pattern: [Describe where it is used]
 - Observer Pattern: [Describe where it is used]
 
+## Projects
+- [Hotel Management System](#Hotel Management System)
 ## Installation
 
 1. Clone the repository:
@@ -86,6 +88,7 @@ The activity diagram describes the system's workflow.
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
+
 
 ## License
 
