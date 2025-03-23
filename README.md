@@ -64,8 +64,8 @@ The activity diagram describes the system's workflow.
 - Factory Pattern: [Describe where it is used]
 - Observer Pattern: [Describe where it is used]
 
-## Projects
-- [Hotel Management System](Hotel Management System)
+## Projects - Branch
+-  **Hotel Management System** 
 ## Installation
 
 1. Clone the repository:
