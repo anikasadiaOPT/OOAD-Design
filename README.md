@@ -9,6 +9,7 @@ This repository contains the Object-Oriented Analysis and Design (OOAD) document
 
 - [Introduction](#introduction)
 - [System Requirements](#system-requirements)
+- [Why do we model](#Why-do-we-model)
 - [Use Case Diagram](#use-case-diagram)
 - [Class Diagram](#class-diagram)
 - [Sequence Diagrams](#sequence-diagrams)
