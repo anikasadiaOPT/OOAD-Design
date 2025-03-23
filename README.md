@@ -1,5 +1,5 @@
 # OOAD-Design
-# # Object-Oriented Analysis and Design (OOAD)
+# Object-Oriented Analysis and Design (OOAD)
 
 ## Overview
 
