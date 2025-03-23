@@ -58,11 +58,6 @@ The activity diagram describes the system's workflow.
 
 
 
-## Design Patterns Used
-
-- Singleton: [Describe where it is used]
-- Factory Pattern: [Describe where it is used]
-- Observer Pattern: [Describe where it is used]
 
 ## Projects - Branch
 -  **Hotel Management System** 
