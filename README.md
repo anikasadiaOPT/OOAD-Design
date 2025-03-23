@@ -74,7 +74,7 @@ The activity diagram describes the system's workflow.
    ```
 2. Navigate to the project directory:
    ```
-   cd your-repository
+   cd [your-repository](https://github.com/anikasadiaOPT/OOAD-Design/tree/main)
    ```
 3. Install dependencies:
    ```
