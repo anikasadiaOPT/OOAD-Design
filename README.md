@@ -3,7 +3,7 @@
 
 ## Overview
 
-This repository contains the Object-Oriented Analysis and Design (OOAD) documentation and implementation for [Project Name]. The project follows best practices in OOAD to ensure modularity, scalability, and maintainability.
+This repository contains the Object-Oriented Analysis and Design (OOAD) documentation and implementation. The project follows best practices in OOAD to ensure modularity, scalability, and maintainability.
 
 ## Table of Contents
 
@@ -19,6 +19,10 @@ This repository contains the Object-Oriented Analysis and Design (OOAD) document
 - [Contributing](#contributing)
 - [License](#license)
 
+## **Branches**
+   - **main** - Implementation of the theory with different projects.
+   - **Theory** - Basic fundamentals of Software designing based on UML(Unifid Modeling Language).
+     
 ## Introduction
 
 This project aims to cover the full syllabus of Object Oriented Analysis and Design. It follows an object-oriented approach using UML diagrams and design principles.
