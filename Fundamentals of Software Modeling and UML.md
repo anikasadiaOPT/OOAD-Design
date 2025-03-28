@@ -110,17 +110,17 @@ b) Behavior Diagrams (Dynamic View)
 
 ## **UML Elements**
 
-    - **Actors**: Entities interacting with the system.
-    - **Classes & Objects**: Define the structure of software components.
-    - **Relationships**: Associations, dependencies, generalizations, and compositions.
-    - **States & Events: Represent object life cycles.
+  - **Actors**: Entities interacting with the system.
+  - **Classes & Objects**: Define the structure of software components.
+  - **Relationships**: Associations, dependencies, generalizations, and compositions.
+  - **States & Events: Represent object life cycles.
 
 ## **UML Applications**
 
-    - Software development & design
-    - System documentation
-    - Database modeling
-    - Business process modeling
+  - Software development & design
+  - System documentation
+  - Database modeling
+  - Business process modeling
 
 ## **Tools for UML Modeling**
 
