@@ -1,13 +1,3 @@
-- A model provides the blueprints of a system.
-
-The larger and more complex the system, the more important modeling becomes.
-
-We build models of complex systems because we cannot fully understand them.
-
-There are limits to the human ability to comprehend complexity.
-
-Modeling allows us to focus on specific aspects of a system.
-
 ## **Importance of Modeling**  
 
 - Modeling is the designing of software applications before coding.
@@ -35,26 +25,26 @@ Through modeling, we achieve four key objectives:
 ## **Principles of Modeling**
 
 - **1st Principle**:
-                   - Choosing the Right Models
-                   - The choice of models influences how a problem is solved.
-                   - Selecting the right models can clarify complex development issues.
+  - Choosing the Right Models
+  - The choice of models influences how a problem is solved.
+  - Selecting the right models can clarify complex development issues.
 
 - **2nd Principle**:
-                  - Different Levels of Precision
-                  - Models can be expressed at various levels of detail.
-                  - Quick and simple models may be sufficient in some cases.
-                  - Detailed models are necessary for deeper understanding.
-                  - The best models allow flexibility in precision.
+  - Different Levels of Precision
+  - Models can be expressed at various levels of detail.
+  - Quick and simple models may be sufficient in some cases.
+  - Detailed models are necessary for deeper understanding.
+  - The best models allow flexibility in precision.
 
 - **3rd Principle**:
-                  - Connection to Reality
-                  - The best models are closely tied to real-world scenarios.
-                  - Abstract models must still reflect reality for better comprehension.
+  - Connection to Reality
+  - The best models are closely tied to real-world scenarios.
+  - Abstract models must still reflect reality for better comprehension.
 
 - **4th Principle**:
-                  - No Single Model is Sufficient
-                  - Complex systems require multiple interconnected models.
-                  - A single model cannot fully represent a nontrivial system.
+   - No Single Model is Sufficient
+   - Complex systems require multiple interconnected models.
+   - A single model cannot fully represent a nontrivial system.
 
 
 ## **UML: Unified Modeling Language**
