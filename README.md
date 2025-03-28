@@ -8,7 +8,6 @@ This repository contains the Object-Oriented Analysis and Design (OOAD) document
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Thoery](#https://github.com/anikasadiaOPT/OOAD-Design/tree/Thoery)
 - [System Requirements](#system-requirements)
 - [Use Case Diagram](#use-case-diagram)
 - [Class Diagram](#class-diagram)
@@ -20,6 +19,9 @@ This repository contains the Object-Oriented Analysis and Design (OOAD) document
 - [Contributing](#contributing)
 - [License](#license)
 
+## **Branches**
+   - **main** - Implementation of the theory with different projects.
+   - **Theory** - Basic fundamentals of Software designing based on UML(Unifid Modeling Language).
 ## Introduction
 
 This project aims to cover the full syllabus of Object Oriented Analysis and Design. It follows an object-oriented approach using UML diagrams and design principles.
