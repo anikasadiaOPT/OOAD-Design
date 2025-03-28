@@ -67,12 +67,12 @@ Standardized graphical notation for:
 ## **UML as a Language**
 
 - **Visualizing**:
- - Some aspects of software are best modeled textually, others graphically.
- - More than just symbols: UML provides a framework for clear, unambiguous models.
+    - Some aspects of software are best modeled textually, others graphically.
+    - More than just symbols: UML provides a framework for clear, unambiguous models.
 
 - **Specifying**:
- - Builds precise, complete models.
- - Covers all major analysis, design, and implementation decisions.
+   - Builds precise, complete models.
+   - Covers all major analysis, design, and implementation decisions.
 
 - **Constructing**:
   - It is not a visual programming language but integrates with programming languages.
