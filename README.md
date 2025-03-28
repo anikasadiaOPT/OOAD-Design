@@ -8,6 +8,7 @@ This repository contains the Object-Oriented Analysis and Design (OOAD) document
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Thoery](#https://github.com/anikasadiaOPT/OOAD-Design/tree/Thoery)
 - [System Requirements](#system-requirements)
 - [Use Case Diagram](#use-case-diagram)
 - [Class Diagram](#class-diagram)
