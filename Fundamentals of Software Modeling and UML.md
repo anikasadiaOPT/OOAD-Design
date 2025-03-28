@@ -53,36 +53,27 @@ Through modeling, we achieve four key objectives:
 - Created and managed by the Object Management Group (OMG).
 - UML official website: http://www.uml.org
 
-Why Use UML?
+## **Why Use UML?**
 
 Standardized graphical notation for:
 
-Specifying
+ - Specifying
+ - Visualizing
+ - Constructing
+ - Documenting software systems
+ - Enhances understanding and communication between customers and developers.
+ - Supported by many software tools (e.g., UMLet, Rational Rose, ArgoUML).
 
-Visualizing
+## **UML as a Language**
 
-Constructing
+- **Visualizing**:
+ - Some aspects of software are best modeled textually, others graphically.
+ - More than just symbols: UML provides a framework for clear, unambiguous models.
 
-Documenting software systems
+- **Specifying**:
+ - Builds precise, complete models.
+ - Covers all major analysis, design, and implementation decisions.
 
-Enhances understanding and communication between customers and developers.
-
-Supported by many software tools (e.g., UMLet, Rational Rose, ArgoUML).
-
-UML as a Language
-
-Visualizing: Some aspects of software are best modeled textually, others graphically.
-
-More than just symbols: UML provides a framework for clear, unambiguous models.
-
-Specifying:
-
-Builds precise, complete models.
-
-Covers all major analysis, design, and implementation decisions.
-
-Constructing:
-
-Not a visual programming language but integrates with programming languages.
-
-Models can be mapped to Java, C++, VB, or relational databases.
+- **Constructing**:
+  - It is not a visual programming language but integrates with programming languages.
+  - Models can be mapped to Java, C++, VB, or relational databases.
