@@ -110,6 +110,78 @@ A class diagram is typically divided into **three compartments**:
 - Operation Compartments
 
 
+# 📘 Class Diagram Relationships – OOAD Summary
+
+## 🔗 Association
+- A **semantic and structural relationship** between classes.
+- **Objects recognize** each other and may send messages.
+- Can include:
+  - **Association name** (should be a verb or verb phrase)
+  - **Role names** (nouns representing each end)
+  - **Multiplicity** (e.g., 1, 0..*, 1..*)
+  - **Navigability** (direction of access)
+- **Types of Associations**:
+  - Simple
+  - Aggregate
+  - Composite
+  - Reflexive (self-relationship)
+  - Qualified (uses an index/qualifier)
+
+## 🔘 Association Class
+- Encapsulates **extra information** about an association.
+
+---
+
+## 🔷 Aggregation
+- Represents a **"whole-part"** (has-a) relationship.
+- The **part can exist independently** of the whole.
+- Example: A *Team* has *Players* – players can exist without the team.
+
+---
+
+## 🔶 Composition
+- A **strong form of aggregation**.
+- The **whole owns the part exclusively**.
+- The **part's lifetime depends** on the whole.
+- If the whole is deleted, so is the part.
+- Example: A *House* contains *Rooms* – if the house is destroyed, rooms are too.
+
+---
+
+## 🧬 Generalization (Inheritance)
+- Relationship between a **general (super) class** and **specific (sub) class**.
+- Follows the **substitutability principle**.
+- A **bottom-up process** ("is-a-kind-of" relationship).
+- A subclass:
+  - **Inherits** attributes, operations, relationships.
+  - **May add or override** features.
+- Superclass may be declared `{abstract}` if no instances are created.
+
+---
+
+## 🎭 Realization
+- Indicates that a **class implements an interface**.
+- A class may **realize many interfaces**.
+- Interfaces define **behavior contracts**, not implementation.
+
+---
+
+## ⚠️ Dependency
+- A **semantic relationship**.
+- A **change in one class may require changes** in the other.
+- Indicates **temporary usage** (e.g., within a method).
+
+---
+
+> ✅ Suitable for: UML class diagrams, design documentation, and object-oriented analysis.
+
+
+
+
+
+
+
+
 
 
 
