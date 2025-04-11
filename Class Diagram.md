@@ -266,6 +266,5 @@ Victor Stany Rozario
 Assistant Professor
 Department of Computer Science,  AIUB
 Web: https://cs.aiub.edu/profile/stany
-![image](https://github.com/user-attachments/assets/8948a077-150e-45fa-9c7b-b5a011588c98)
 
 
