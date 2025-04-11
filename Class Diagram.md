@@ -110,7 +110,7 @@ A class diagram is typically divided into **three compartments**:
 - Operation Compartments
 
 
-# 📘 Class Diagram Relationships – OOAD Summary
+# 📘 Class Diagram Relationships
 
 ## 🔗 Association
 - A **semantic and structural relationship** between classes.
