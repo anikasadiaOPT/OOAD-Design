@@ -175,6 +175,56 @@ A class diagram is typically divided into **three compartments**:
 
 > ✅ Suitable for: UML class diagrams, design documentation, and object-oriented analysis.
 
+----
+
+## 📌 Constraints and Notes
+
+- Constraints and notes **annotate** UML elements such as associations, attributes, operations, and classes.
+- They define **semantic restrictions** as Boolean expressions.
+- UML provides many **pre-defined constraints** (e.g., `{id is assigned by system}`, `{abstract}`).
+- Useful for ensuring system **integrity** and proper **documentation**.
+
+---
+
+## 🧩 Logical Distribution of Classes (Packages)
+
+- Classes can be **logically grouped into packages** for better organization.
+- A **package** is a namespace that organizes a set of related classes and diagrams.
+- Helps manage **complexity** and **modularity** in large systems.
+
+---
+
+## 🧱 Class Categorization
+
+### 🔷 Boundary Classes
+- Represent the **interaction** between the system and its external environment.
+- Examples:
+  - **User Interface Classes** – Focus on *what information is presented* to users.
+  - **System/Device Interface Classes** – Define *protocols*, not their implementation.
+  
+### 🟨 Entity Classes
+- Represent the **core concepts** and **persistent data** of the system.
+- Characteristics:
+  - Model **key information**.
+  - Contain **business logic** to solve system problems.
+  - Reusable in **multiple behaviors**.
+
+### 🟩 Control Classes
+- Handle the **control flow** and **coordinate** behavior between boundary and entity classes.
+- Characteristics:
+  - **Delegate tasks** to other classes.
+  - Ensure **separation of concerns**.
+  - Should focus only on **directing operations**, not implementing them.
+
+---
+
+> This structured format can be directly used in your notes, project documentation, or submission! Let me know if you’d like a diagram example to go with it. 😊
+
+
+
+
+
+
 
 
 
