@@ -262,8 +262,8 @@ A patient can register in the hospital system, book an appointment with a doctor
 
 ### Reference
 
-Victor Stany Rozario
-Assistant Professor
+Victor Stany Rozario,
+Assistant Professor,
 Department of Computer Science,  AIUB
 Web: https://cs.aiub.edu/profile/stany
 
