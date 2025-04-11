@@ -216,24 +216,56 @@ A class diagram is typically divided into **three compartments**:
   - Ensure **separation of concerns**.
   - Should focus only on **directing operations**, not implementing them.
 
----
 
 > This structured format can be directly used in your notes, project documentation, or submission! Let me know if you’d like a diagram example to go with it. 😊
 
+---
 
+## 📇 CRC Card (Class Responsibility Collaboration)
 
+CRC cards offer a **simple and intuitive approach** to Object-Oriented Design. Each card represents a class and contains:
 
+- **Responsibilities**: What the class is supposed to do (its duties/behaviors).
+- **Collaborators**: Other classes it interacts with to fulfill those responsibilities.
 
-
-
-
-
-
-
-
-
-
-
-
+This helps distribute responsibilities clearly across objects in the system and encourages clean design.
 
 ---
+
+## 🆚 Class Diagram vs. Object Diagram
+
+| Aspect               | Class Diagram                              | Object Diagram                              |
+|----------------------|---------------------------------------------|---------------------------------------------|
+| **Definition**       | Blueprint showing structure & rules         | Snapshot of the system at a given moment    |
+| **Focus**            | What **can be**                             | What **is** happening now                   |
+| **Use Case**         | Used in design phase                        | Used to verify the system's current state   |
+| **Confirms**         | Structure & relationships                   | Actual object instances & interactions      |
+
+> 🔍 If the class diagram says *"This is how it should work"*, the object diagram shows *"This is how it's working now."*
+
+---
+
+✅ Perfect for understanding both **design-time structure** and **run-time behavior** in OOAD!
+
+---
+
+### Case Scenarios
+
+- 📘 Case Scenario 1: Online Food Ordering System
+A user visits an online food delivery platform. They can browse restaurants, select menu items, and place orders. After placing an order, the user can make an online payment or choose cash on delivery. The system sends a notification to the restaurant, and the restaurant confirms the order. A delivery person is then assigned and can update the order status during delivery. An admin can manage restaurant listings and user accounts and view sales reports.
+
+- 📘 Case Scenario 2: University Course Registration System
+Students log into the university portal using their ID and password. Once logged in, they can view available courses, check prerequisites, and register for classes. They can also drop a course before the deadline. Professors log into the same portal to view their class rosters, upload grades, and communicate with students. An admin manages course offerings and user roles and generates academic reports.
+
+- 📘 Case Scenario 3: Hospital Management System
+A patient can register in the hospital system, book an appointment with a doctor, and view their medical history. Doctors can log in to view their schedules, update patient records, and prescribe medication. Receptionists can manage appointments and patient check-ins. The system also allows the hospital administrator to manage staff records, generate bills, and view system reports.
+
+### Reference
+
+Victor Stany Rozario
+Assistant Professor
+Department of Computer Science,  AIUB
+Web: https://cs.aiub.edu/profile/stany
+![image](https://github.com/user-attachments/assets/8948a077-150e-45fa-9c7b-b5a011588c98)
+
+
