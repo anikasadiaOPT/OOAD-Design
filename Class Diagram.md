@@ -217,8 +217,6 @@ A class diagram is typically divided into **three compartments**:
   - Should focus only on **directing operations**, not implementing them.
 
 
-> This structured format can be directly used in your notes, project documentation, or submission! Let me know if you’d like a diagram example to go with it. 😊
-
 ---
 
 ## 📇 CRC Card (Class Responsibility Collaboration)
@@ -255,10 +253,10 @@ This helps distribute responsibilities clearly across objects in the system and 
 A user visits an online food delivery platform. They can browse restaurants, select menu items, and place orders. After placing an order, the user can make an online payment or choose cash on delivery. The system sends a notification to the restaurant, and the restaurant confirms the order. A delivery person is then assigned and can update the order status during delivery. An admin can manage restaurant listings and user accounts and view sales reports.
 
 - 📘 Case Scenario 2: University Course Registration System
-Students log into the university portal using their ID and password. Once logged in, they can view available courses, check prerequisites, and register for classes. They can also drop a course before the deadline. Professors log into the same portal to view their class rosters, upload grades, and communicate with students. An admin manages course offerings and user roles and generates academic reports.
+Students log into the university portal using their ID and password. Once logged in, they can view available courses, check prerequisites, register for classes, and drop a course before the deadline. Professors log into the same portal to view their class rosters, upload grades, and communicate with students. An admin manages course offerings and user roles and generates academic reports.
 
 - 📘 Case Scenario 3: Hospital Management System
-A patient can register in the hospital system, book an appointment with a doctor, and view their medical history. Doctors can log in to view their schedules, update patient records, and prescribe medication. Receptionists can manage appointments and patient check-ins. The system also allows the hospital administrator to manage staff records, generate bills, and view system reports.
+Patients can register in the hospital system, book an appointment with a doctor, and view their medical history. Doctors can log in to view their schedules, update patient records, and prescribe medication. Receptionists can manage appointments and patient check-ins. The system also allows the hospital administrator to manage staff records, generate bills, and view system reports.
 
 ### Reference
 
