@@ -3,7 +3,7 @@
 
 ## Overview
 
-This repository contains the Object-Oriented Analysis and Design (OOAD) documentation and implementation for [Project Name]. The project follows best practices in OOAD to ensure modularity, scalability, and maintainability.
+This repository contains the Object-Oriented Analysis and Design (OOAD) documentation and implementation for some projects. The project follows best practices in OOAD to ensure modularity, scalability, and maintainability.
 
 ## Table of Contents
 
