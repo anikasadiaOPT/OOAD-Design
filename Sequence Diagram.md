@@ -1,148 +1,163 @@
-### Sequence Diagram 
-<p> After reading this whole file, we will be able to gain about </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sequence Diagram</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    li {
+      margin-bottom: 5px;
+    }
+    .section {
+      margin-bottom: 30px;
+      padding: 20px;
+      background-color: #ffffff;
+      border-left: 5px solid #2980b9;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Sequence Diagram</h1>
+
+  <p>After reading this guide, you will understand the following:</p>
+  <ul>
+    <li>Definition</li>
+    <li>Relation to other UML Diagrams</li>
+    <li>Key Parts</li>
+    <li>Heuristics</li>
+    <li>Elements</li>
+    <li>Structured Control Operators</li>
+    <li>Case Studies</li>
+  </ul>
+
+  <div class="section">
+    <h2>Definition</h2>
     <ul>
-      <li> Definition</li>
-      <li> Relation to other UML</li>
-      <li> Key parts</li>
-      <li> Heuristics</li>
-      <li> Elements</li>
-      <li> Structured Control Operators</li>
-      <li> Case Studies</li>
+      <li>Represents interaction among objects</li>
+      <li>Shows detailed operations carried out</li>
+      <li>Models a single scenario execution</li>
+      <li>Depicts communication behavior</li>
+      <li>Highlights interacting individuals</li>
+      <li>Displays message exchange</li>
     </ul>
+  </div>
 
-<h2> Definition</h2>
-   <uL>
-       <li>Interaction</li>
-       <li>Detailed operations carried out</li>
-       <li>Models Single scenario execution</li>
-       <li>models communication behaviour</li>
-       <li>Shows Interacting individuals</li>
-       <li>Shows message exchange</li>
-   </uL>
-
-<h2> Relation to other UML</h2>
+  <div class="section">
+    <h2>Relation to Other UML Diagrams</h2>
     <ul>
-        Use case -> Sequence Diagram
+      <li><strong>Use Case</strong> → <strong>Sequence Diagram</strong></li>
     </ul>
+  </div>
 
-<h2>Key parts</h2>
-   <uL>
-       <li>Frame
-           <ul>
-               <li>Rectangle with pentagon</li>
-               <li>Name Compartment</li>
-               <li>Identifier 'sd'</li>
-               <li>Simple name or operation specifiation</li>
-           </ul>
-       </li>
-       <li>Participants
+  <div class="section">
+    <h2>Key Parts</h2>
+    <ul>
+      <li><strong>Frame</strong>
         <ul>
-            <li>Object or Entity</li>
-            <li>Actor/ System</li>
-            <li>Rectangle Identifier</li>
+          <li>Rectangle with a pentagon corner</li>
+          <li>Includes a name compartment</li>
+          <li>Identifier: <code>sd</code></li>
+          <li>Simple name or operation specification</li>
         </ul>
-       </li>
-       <li>Lifelines/Axes
-           <uL>
-               <li>Participating individuals</li>
-               <li>Arrayed across diagram</li>
-               <li>Dashed line</li>
-               <li>Shows period individuals exists</li>
-               <li>Horizontal: Object or participants</li>
-               <li>Verticle: Time(time down is forward)</li>
-               <li>Creation
-                   <ul>New object apperance at creation point</ul>
-               </li>
-               <li>Destruction
-                 <ul>
-                     <li>Truncated lifeline</li>
-                     <li>Ending in an X</li>
-                 </ul>
-               </li>
-               <li>Persisting Objects</li>
-               <li>Identifier format
-                  <ul>
-                      <li>name[selector]: typeName</li>
-                      <li>Name(optional)</li>
-                      <li>Selector(optional)</li>
-                      <li>TypeName(optional)</li>
-                      <li>Name typeName or both must appear</li>
-                  </ul>
-               </li>
-           </uL>
-       </li>
-       <li>Message
-           <ul>
-               <li>Communication between participants</li>
-               <li>Arrows</li>
-               <li>Synchronous
-                   <ul>
-                       <li>Sender suspends execution</li>
-                       <li>Sender waits for reply</li>
-                   </ul>
-               </li>
-               <li>Asynchronous
-                   <ul>
-                       <li>Sender continues execution</li>
-                       <li>No waiting</li>
-                   </ul>
-               </li>
-               <li>Message return</li>
-               <li>Object creation</li>
-           </ul>
-       </li>
-       <li>Execution Occurance
-           <ul>
-               <li>Operation is executing</li>
-               <li>Process running code</li>
-               <li>Operation suspended(waiting for sync message return)</li>
-               <li>Operation active(executing or suspended)</li>
-           </ul>
-       </li>
-       <li>Shown as thin rectangle over lifeline</li>
-   </uL>
-
-
-
-<h2>Heuristics</h2>
-
-   <ul>
-    <li>Sender of first message leftmost</li>
-    <li>Heavy interactors next to one another</li>
-    <li>Position for short message arrows</li>
-    <li>Position for arrows left to right</li>
-   </ul>
-
-
-<h2>Elements</h2>
-    <ul>
-        <li>Object lifeline(1)</li>
-        <li>Message/Stimulus(2)</li>
-        <li>Iteration(3)</li>
-        <li>Self Reference(4)</li>
-        <li>Return(5)</li>
-        <li>Anonymus Object(6)</li>
-        <li>Object name(7)</li>
-        <li>Sequence Number(8)</li>
-        <li>Condition(9)</li>
-        <li>Basic Comment(10)</li>
-        <li>Self Execution(extended)</li>
+      </li>
+      <li><strong>Participants</strong>
+        <ul>
+          <li>Objects or entities</li>
+          <li>Actors or system components</li>
+          <li>Represented using rectangle identifiers</li>
+        </ul>
+      </li>
+      <li><strong>Lifelines / Axes</strong>
+        <ul>
+          <li>Represent participating individuals</li>
+          <li>Dashed vertical lines across the diagram</li>
+          <li>Show the lifetime of participants</li>
+          <li><strong>Horizontal axis</strong>: participants</li>
+          <li><strong>Vertical axis</strong>: time (flows downward)</li>
+          <li><strong>Creation</strong>: New object appears at creation point</li>
+          <li><strong>Destruction</strong>: Ends with an 'X' symbol</li>
+          <li><strong>Identifier Format</strong>: <code>name[selector]: typeName</code></li>
+        </ul>
+      </li>
+      <li><strong>Message</strong>
+        <ul>
+          <li>Arrows representing communication</li>
+          <li><strong>Synchronous</strong>: Sender waits for a reply</li>
+          <li><strong>Asynchronous</strong>: Sender continues without waiting</li>
+          <li>Includes message return and object creation</li>
+        </ul>
+      </li>
+      <li><strong>Execution Occurrence</strong>
+        <ul>
+          <li>Indicates operation execution</li>
+          <li>Process may be active or waiting</li>
+          <li>Shown as a thin rectangle over the lifeline</li>
+        </ul>
+      </li>
     </ul>
+  </div>
 
-<h2>Structured Control Operators</h2>
-
-   <ul>
-       <li>OPT(optional)</li>
-       <li>ALT(Alternate)</li>
-       <li>PAR(Parallel)</li>
-       <li>Loop(Iterative)</li>
-       <li>Ref(Reference)</li>
-   </ul>
-
-<h2>Case Studies</h2>
+  <div class="section">
+    <h2>Heuristics</h2>
     <ul>
-        <li>ATM Withdrawl Machine</li>
-        <li>Library Journal Booking</li>
-        <li>Hospital Bed/Room Booking</li>
-        <li>Air cooler Start Cycle</li>
+      <li>Sender of the first message should be on the left</li>
+      <li>Heavy interactors placed close together</li>
+      <li>Keep message arrows short</li>
+      <li>Prefer left-to-right arrow direction</li>
     </ul>
+  </div>
+
+  <div class="section">
+    <h2>Elements</h2>
+    <ul>
+      <li>Object Lifeline</li>
+      <li>Message / Stimulus</li>
+      <li>Iteration</li>
+      <li>Self-Reference</li>
+      <li>Return</li>
+      <li>Anonymous Object</li>
+      <li>Object Name</li>
+      <li>Sequence Number</li>
+      <li>Condition</li>
+      <li>Basic Comment</li>
+      <li>Self Execution (extended)</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Structured Control Operators</h2>
+    <ul>
+      <li><strong>opt</strong> – Optional</li>
+      <li><strong>alt</strong> – Alternative paths</li>
+      <li><strong>par</strong> – Parallel execution</li>
+      <li><strong>loop</strong> – Iterative execution</li>
+      <li><strong>ref</strong> – Reference another interaction</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Case Studies</h2>
+    <ul>
+      <li>ATM Withdrawal Machine</li>
+      <li>Library Journal Booking</li>
+      <li>Hospital Bed/Room Booking</li>
+      <li>Air Cooler Start Cycle</li>
+    </ul>
+  </div>
+
+</body>
+</html>
